@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a string: ");
+        String inputString = scanner.nextLine();
+        for (int i = 0; i < inputString.length(); i++) {
+            System.out.println(inputString.charAt(i));
+            }
+
+        scanner.close();
+        
+        }
+    }
+      
+        // I had learned how to display a string one letter at a time one line at a time. I figured out how to do this by looking up tutorials and using ChatGPT allowed by Melissa this one time.
+        //What my code does is that it asks the user for a string input. When the string input is given, Java then seperates the string by letter. Once it has done that, it prints each letter on a seperate line.
+        //I picked the for loop condition to be an "input string length" because the input isn't an integer. An integer requires hard boundries while a string is very varied in it's max words.
+    
